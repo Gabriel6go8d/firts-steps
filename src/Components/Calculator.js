@@ -150,7 +150,7 @@ function Calculator() {
     }
         
     return (
-        <div className='col-6 mt-5'>
+        <div className='col-12 col-md-6 mt-5'>
             <h1 className='text-white' align='right' style={h1style}>{resultado}</h1>
             <h4 className='text-white' align='right' style={h1style}>{calculo}</h4>
             <div className='row justify-content-between'>
