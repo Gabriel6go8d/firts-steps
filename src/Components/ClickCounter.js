@@ -12,6 +12,7 @@ function ClickCounter() {
             <button className='btn btn-success col mt-2 mb-2' onClick={increment}>Increment</button>
             <button className='btn btn-primary col' onClick={decrement}>Decrement</button>         
         </div>
+        
     )
 }
 
