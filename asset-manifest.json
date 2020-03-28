@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/firts-steps/static/css/main.bad43889.chunk.css",
+    "main.js": "/firts-steps/static/js/main.68967c59.chunk.js",
+    "main.js.map": "/firts-steps/static/js/main.68967c59.chunk.js.map",
+    "runtime-main.js": "/firts-steps/static/js/runtime-main.2546e02e.js",
+    "runtime-main.js.map": "/firts-steps/static/js/runtime-main.2546e02e.js.map",
+    "static/css/2.9c2ec2a3.chunk.css": "/firts-steps/static/css/2.9c2ec2a3.chunk.css",
+    "static/js/2.1252e54b.chunk.js": "/firts-steps/static/js/2.1252e54b.chunk.js",
+    "static/js/2.1252e54b.chunk.js.map": "/firts-steps/static/js/2.1252e54b.chunk.js.map",
+    "index.html": "/firts-steps/index.html",
+    "precache-manifest.21e2a20fb77ad922a816251ff60b0a9c.js": "/firts-steps/precache-manifest.21e2a20fb77ad922a816251ff60b0a9c.js",
+    "service-worker.js": "/firts-steps/service-worker.js",
+    "static/css/2.9c2ec2a3.chunk.css.map": "/firts-steps/static/css/2.9c2ec2a3.chunk.css.map",
+    "static/css/main.bad43889.chunk.css.map": "/firts-steps/static/css/main.bad43889.chunk.css.map",
+    "static/js/2.1252e54b.chunk.js.LICENSE.txt": "/firts-steps/static/js/2.1252e54b.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/firts-steps/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2546e02e.js",
+    "static/css/2.9c2ec2a3.chunk.css",
+    "static/js/2.1252e54b.chunk.js",
+    "static/css/main.bad43889.chunk.css",
+    "static/js/main.68967c59.chunk.js"
+  ]
+}
