@@ -11,3 +11,70 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.calculator_text{
+  background-color: gray;
+  height: 80px;
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 10px;
+  text-align: right;
+  padding: 5px;
+  color: white;
+}
+.calculator_result{
+  height: 35px;
+  font-size: 35px;
+}
+.calculator_count{
+  height: 20px;
+  font-size: 20px;
+}
+
+.myLogo{
+  height: 30px;
+  margin: 0 0 2px 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body p{
+  margin-bottom: 0;
+}
+
+.showArea{
+  transition: all 400ms ease;
+  opacity: 1;
+}
+.showAreaHide{
+  opacity: 0;
+}
+@media only screen and (min-width: 1200px) {
+  .footer{
+    position: absolute;
+    bottom: 0;
+  }
+}
+
+
+.odometer.odometer-auto-theme.odometer-animating-up .odometer-ribbon-inner, .odometer.odometer-theme-minimal.odometer-animating-up .odometer-ribbon-inner,
+.odometer.odometer-auto-theme.odometer-animating-down.odometer-animating .odometer-ribbon-inner, .odometer.odometer-theme-minimal.odometer-animating-down.odometer-animating .odometer-ribbon-inner {
+  -webkit-transition-duration: 2s !important;
+  -moz-transition-duration: 2s !important;
+  -ms-transition-duration: 2s !important;
+  -o-transition-duration: 2s !important;
+  transition-duration: 2s !important
+}

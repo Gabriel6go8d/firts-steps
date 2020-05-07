@@ -3,10 +3,6 @@ import {evaluate} from 'mathjs'
 
 function Calculator() {
 
-    const h1style = {
-        height: '40px'
-    }
-
     function PCal (stringA) {
         var ValA = 0
         var ValB = 0
@@ -150,34 +146,36 @@ function Calculator() {
     }
         
     return (
-        <div className='col-12 col-md-6 mt-5'>
-            <h1 className='text-white' align='right' style={h1style}>{resultado}</h1>
-            <h4 className='text-white' align='right' style={h1style}>{calculo}</h4>
-            <div className='row justify-content-between'>
+        <div className='col-12 col-md-6 col-lg-3 mt-5'>
+            <div className='calculator_text'>
+                <h1 className='calculator_result'>{resultado}</h1>
+                <h4 className='calculator_count'>{calculo}</h4>
+            </div>
+            <div className='row justify-content-between m-0 p-0'>
                 <button onClick={CalClick} className='btn btn-lg btn-danger col-2' id='bu-19' ref={buttrefG}>CE</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-16' ref={buttrefF}>%</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-17' ref={buttrefE}>^</button>
                 <button onClick={CalClick} className='btn btn-lg btn-danger col-2' id='bu-18' ref={buttrefD}>DEL</button>
             </div>
-            <div className='row justify-content-between mt-2'>
+            <div className='row justify-content-between m-0 p-0 mt-2'>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-7'>7</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-8'>8</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-9'>9</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-15' ref={buttrefC}>/</button>
             </div>
-            <div className='row justify-content-between mt-2'>
+            <div className='row justify-content-between m-0 p-0 mt-2'>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-4'>4</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-5'>5</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-6'>6</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-14' ref={buttrefB}>*</button>
             </div>
-            <div className='row justify-content-between mt-2'>
+            <div className='row justify-content-between m-0 p-0 mt-2'>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-1'>1</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-2'>2</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-3'>3</button>                
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-13'>-</button>
             </div>
-            <div className='row justify-content-between mt-2'>
+            <div className='row justify-content-between m-0 p-0 mt-2'>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-10' ref={buttref}>.</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-0'>0</button>
                 <button onClick={CalClick} className='btn btn-lg btn-primary col-2' id='bu-11' ref={buttrefH}>(</button>

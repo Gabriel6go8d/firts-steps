@@ -1,11 +1,8 @@
 import React, {useState} from 'react'
 import 'react-odometerjs';
-//import 'odometer/themes/odometer-theme-minimal.css'
-import '../Utilities/MyOdometer.css'
 import logo from '../logo.svg';
-import '../App.css';
 
-function Tempo() {
+function Counters_4_Odometro() {
     const logosize = {
         height: '100px'
     }
@@ -20,7 +17,7 @@ function Tempo() {
    
 
     return (
-        <div className='col-12 col-lg-3 col-md-5'>
+        <div className='col-12 col-md-6 col-lg-3 mt-5 text-center'>
             <img src={logo} className="App-logo col" alt="logo" style={logosize}/>
             <h1 className='text-white odometer col'>{odoValue}</h1>
             <button className='btn btn-primary btn-lg col' onClick={doit}>click</button>
@@ -29,4 +26,4 @@ function Tempo() {
     )
 }
 
-export default Tempo
+export default Counters_4_Odometro
