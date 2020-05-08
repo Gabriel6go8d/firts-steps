@@ -54,6 +54,9 @@ code {
 body p{
   margin-bottom: 0;
 }
+.footer{
+  background-color: #343A40;
+}
 
 .showArea{
   transition: all 400ms ease;
